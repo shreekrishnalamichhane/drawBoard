@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Svg_Eraser_Small">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Svg_Eraser_Small" data-name="Svg Eraser Small" clip-path="url(#clip-Svg_Eraser_Small)">
+    <rect width="50" height="50" fill="#fff"/>
+    <path id="eraser-solid" d="M48.627,23a5.912,5.912,0,0,1,0,7.576L33,48.431a4.285,4.285,0,0,1-6.629,0l-25-28.571a5.912,5.912,0,0,1,0-7.576L10.748,1.569A4.412,4.412,0,0,1,14.063,0H48.828A1.264,1.264,0,0,1,50,1.339V5.8a1.264,1.264,0,0,1-1.172,1.339H34.754L48.627,23Zm-29.553,6.99L32.489,14.655,25.915,7.143H14.71L6.9,16.071Z" transform="translate(0 0)"/>
+  </g>
+</svg>
