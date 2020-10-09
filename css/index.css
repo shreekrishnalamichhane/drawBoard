@@ -248,6 +248,10 @@ footer {
     background: transparent;
 }
 
+.tool-group:hover {
+    cursor: pointer;
+}
+
 .tool:focus {
     outline: none;
 }
