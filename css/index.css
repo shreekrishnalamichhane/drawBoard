@@ -9,6 +9,7 @@
     --clr-pencil: rgb(255, 166, 0);
     --clr-eraser: rgb(64, 147, 255);
     --clr-color: rgb(255, 196, 0);
+    --clr-btn: rgb(0, 255, 179);
     --clr-text: #2a2a2a;
 }
 
@@ -50,10 +51,18 @@ aside {
     z-index: -1;
 }
 
-.clearCanvas {
+.clear-canvas {
     position: absolute;
     top: 10px;
     left: 10px;
+    border: 0;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: var(--clr-btn);
+    color: #2a2a2a;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
 }
 
 .zoom-btns {
@@ -170,8 +179,11 @@ footer {
     width: 100%;
     border: 0;
     margin: 20px 0;
-    background: #dbdbdb;
+    background: var(--clr-btn);
     color: #2a2a2a;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
     padding: 10px 0;
     cursor: pointer;
     border-radius: 300px;
